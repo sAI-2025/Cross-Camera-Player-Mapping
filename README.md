@@ -1,46 +1,65 @@
 
-````markdown
+---
+
 # Cross-Camera Player Mapping
 
 Efficient player matching across multiple camera feeds using Siamese Network for visual similarity comparison.
 
+---
+
 ## Problem Statement
 
 Current player tracking systems using multiple cameras face challenges:
-- Inconsistent Player Identification: Different camera angles lead to inconsistent player recognition.
-- Manual Intervention: Cross-camera player matching often requires human effort.
-- Lack of Real-time Processing: Automatic and accurate player matching is difficult in real-time applications.
+
+* **Inconsistent Player Identification**: Different camera angles lead to inconsistent player recognition.
+* **Manual Intervention**: Cross-camera player matching often requires human effort.
+* **Lack of Real-time Processing**: Automatic and accurate player matching is difficult in real-time applications.
+
+---
 
 ## Our Solution
 
 This project addresses the challenge of **cross-camera player mapping** using a **pretrained Siamese Network**. It enables:
-- Automatic Player Matching: Identifies and matches players across multiple camera feeds.
-- Real-Time Processing: Efficiently processes video frames for live applications.
-- High Accuracy: Achieves high similarity scores in matching players based on appearance.
+
+* **Automatic Player Matching**: Identifies and matches players across multiple camera feeds.
+* **Real-Time Processing**: Efficiently processes video frames for live applications.
+* **High Accuracy**: Achieves high similarity scores in matching players based on appearance.
+
+---
 
 ## System Architecture
 
 ![System Architecture](./Block.png)
 
+---
+
 ## How It Works: Step-by-Step
 
 ### 1. Video Input – Start with Multiple Camera Feeds
+
 You provide two video inputs: one from a **broadcast camera** and the other from a **tacticam**. Both videos contain player interactions in the same game or event.
 
 ### 2. Player Detection – Detect Players Using YOLO
+
 YOLO (You Only Look Once) is used to detect players within the video frames. The bounding boxes are extracted for each detected player in both camera feeds.
 
 ### 3. Feature Extraction – Extract Visual Features with Siamese Network
+
 Each detected player is cropped out and passed to a **pretrained Siamese Network** for feature extraction. The network generates embeddings that represent the player’s appearance.
 
 ### 4. Player Matching – Compare Embeddings with Cosine Similarity
+
 The embeddings of players from both cameras are compared using **cosine similarity**. A higher similarity score means the players are likely the same person, despite coming from different camera angles.
 
 ### 5. Optimal Matching – Use Hungarian Algorithm for Mapping
+
 The Hungarian algorithm is applied to find the optimal matching of players between the two video feeds based on the similarity scores.
 
 ### 6. Output – Display Matched Players
+
 The result is a list of player pairs indicating which players in the **broadcast video** correspond to players in the **tacticam video**.
+
+---
 
 ## Project Structure
 
@@ -49,7 +68,9 @@ Cross-Camera-Player-Mapping/
 ├── titled.ipynb             # Jupyter notebook with implementation
 ├── requirements.txt         # Python dependencies
 └── Block.png                # System architecture diagram
-````
+```
+
+---
 
 ## Quick Start Guide
 
@@ -77,6 +98,8 @@ cd Cross-Camera-Player-Mapping
 pip install -r requirements.txt
 ```
 
+---
+
 ## Key Technologies
 
 | **Component**         | **Technology**            | **Purpose**                                   |
@@ -86,12 +109,16 @@ pip install -r requirements.txt
 | **Optimization**      | Hungarian Algorithm       | Optimal player matching between frames        |
 | **Similarity Metric** | Cosine Similarity         | Comparing player embeddings                   |
 
+---
+
 ## Key Features
 
 * **🔍 Real-Time Object Detection**: Uses YOLO for fast and efficient player detection.
 * **🧠 Siamese Network**: Pretrained model to extract and compare player features.
 * **⚡ Fast Processing**: Efficient player matching even in real-time scenarios.
 * **📊 Performance Metrics**: High accuracy and minimal latency for player mapping.
+
+---
 
 ## Testing the System
 
@@ -126,6 +153,8 @@ siamese_model = SiameseNetwork()
 match_players(video_broadcast, video_tacticam)
 ```
 
+---
+
 ## Configuration
 
 ### Environment Variables
@@ -139,6 +168,8 @@ VIDEO_BROADCAST_PATH=path/to/broadcast_video.mp4
 VIDEO_TACTICAM_PATH=path/to/tacticam_video.mp4
 ```
 
+---
+
 ## Contributing
 
 We welcome contributions from the community! To contribute:
@@ -149,9 +180,13 @@ We welcome contributions from the community! To contribute:
 4. Push to your branch: `git push origin feature/new-feature`
 5. Open a Pull Request
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Support & Contact
 
@@ -171,9 +206,8 @@ For further questions or support:
 **LinkedIn**: [linkedin/sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
 **Medium**: [medium@sai](https://medium.com/@sai2025)
 
-```
-
 ---
 
-This is a **minimal markdown** version of your **README.md** file. Each section is kept simple and clean, in line with your request. Let me know if you need any further changes!
-```
+This is a **clean, structured README** in **Markdown** format for your Cross-Camera Player Mapping project. You can copy and paste this directly into your repository’s `README.md` file.
+
+Let me know if any other details are required or if you'd like further modifications!
