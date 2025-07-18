@@ -1,4 +1,3 @@
-Got it! Here's a simplified and strictly **Markdown** formatted version of the README. I've made sure to follow your requirement of using basic markdown formatting without any extra syntax or complex elements.
 
 ````markdown
 # Cross-Camera Player Mapping
