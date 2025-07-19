@@ -202,9 +202,9 @@ Licensed under the **MIT License**. See [LICENSE](./LICENSE) for more.
 
 ### Author: Sai Krishna Chowdary Chundru
 
-**GitHub**: [git@sAI](https://github.com/sAI-2025)
+* **GitHub**: [git@sAI](https://github.com/sAI-2025)
 * **Email**: \[cchsaikrishnachowdary@gmail.com]
-**LinkedIn**: [sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
-**Medium**: [medium@sai](https://medium.com/@sai2025)
+* **LinkedIn**: [sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
+* **Medium**: [medium@sai](https://medium.com/@sai2025)
 
 ---
