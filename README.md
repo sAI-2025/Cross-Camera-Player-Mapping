@@ -184,20 +184,20 @@ We welcome contributions from the community! To contribute:
 
 ---
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensed under the **MIT License**. See [LICENSE](./LICENSE) for more.
 
 ---
 
-## Support & Contact
 
-For further questions or support:
-* **GitHub Issues**: [Report bugs or request features](https://github.com/sAI-2025/Cross-Camera-Player-Mapping/issues)
+## 📬 Contact & Support
+
+* **GitHub Issues**: [Submit bugs or requests](https://github.com/sAI-2025/Cross-Camera-Player-Mapping/issues)
+* **Author**: **Sai Krishna Chowdary Chundru**
 * **GitHub**: [sAI-2025](https://github.com/sAI-2025)
 * **LinkedIn**: [linkedin/sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
-* Medium: [@sai2025](https://medium.com/@sai2025)
-
+* **Medium**: [@sai2025](https://medium.com/@sai2025)
 ---
 
 ### Author: Sai Krishna Chowdary Chundru
