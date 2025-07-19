@@ -1,9 +1,16 @@
 
----
+# 🎥 Cross-Camera Player Mapping
 
-# Cross-Camera Player Mapping
+*Efficient player matching across multiple camera feeds using deep learning and visual similarity modeling.*
 
-Efficient player matching across multiple camera feeds using Siamese Network for visual similarity comparison.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" />
+  <img src="https://img.shields.io/badge/YOLO-Detection-orange?logo=opencv" />
+  <img src="https://img.shields.io/badge/Siamese%20Network-PyTorch-9cf?logo=pytorch" />
+  <img src="https://img.shields.io/badge/Similarity-Cosine%20Score-green?logo=scikitlearn" />
+  <img src="https://img.shields.io/badge/License-MIT-green?logo=opensourceinitiative" />
+  <img src="https://img.shields.io/badge/Status-Prototype-lightgrey?logo=github" />
+</p>
 
 ---
 
@@ -59,9 +66,10 @@ The result is a list of player pairs indicating which players in the **broadcast
 
 ```bash
 Cross-Camera-Player-Mapping/
-├── titled.ipynb             # Jupyter notebook with implementation
-├── requirements.txt         # Python dependencies
-└── Block.png                # System architecture diagram
+|   code/
+|   ├── titled.ipynb             # Jupyter notebook with implementation
+|   ├── requirements.txt         # Python dependencies
+└── README.md                 
 ```
 
 ---
@@ -185,19 +193,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support & Contact
 
 For further questions or support:
-
 * **GitHub Issues**: [Report bugs or request features](https://github.com/sAI-2025/Cross-Camera-Player-Mapping/issues)
-* **Email**: \[Your Contact Email Here]
-
-**Author**: Sai Krishna Chowdary Chundru
-**GitHub**: [git@sAI](https://github.com/sAI-2025)
+* **GitHub**: [sAI-2025](https://github.com/sAI-2025)
+* **LinkedIn**: [linkedin/sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
+* Medium: [@sai2025](https://medium.com/@sai2025)
 
 ---
 
 ### Author: Sai Krishna Chowdary Chundru
 
 **GitHub**: [git@sAI](https://github.com/sAI-2025)
-**LinkedIn**: [linkedin/sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
+* **Email**: \[cchsaikrishnachowdary@gmail.com]
+**LinkedIn**: [sai-krishna-chowdary-chundru](https://linkedin.com/in/sai-krishna-chowdary-chundru)
 **Medium**: [medium@sai](https://medium.com/@sai2025)
 
 ---
