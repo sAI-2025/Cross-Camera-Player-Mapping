@@ -1,7 +1,7 @@
 
 # 🎥 Cross-Camera Player Mapping
 
-*Efficient player matching across multiple camera feeds using deep learning and visual similarity modeling.*
+_*Efficient player matching across multiple camera feeds using deep learning and visual similarity modeling.*_
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" />
