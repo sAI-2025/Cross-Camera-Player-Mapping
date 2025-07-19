@@ -27,12 +27,6 @@ This project addresses the challenge of **cross-camera player mapping** using a 
 
 ---
 
-## System Architecture
-
-![System Architecture](./Block.png)
-
----
-
 ## How It Works: Step-by-Step
 
 ### 1. Video Input – Start with Multiple Camera Feeds
@@ -207,7 +201,3 @@ For further questions or support:
 **Medium**: [medium@sai](https://medium.com/@sai2025)
 
 ---
-
-This is a **clean, structured README** in **Markdown** format for your Cross-Camera Player Mapping project. You can copy and paste this directly into your repository’s `README.md` file.
-
-Let me know if any other details are required or if you'd like further modifications!
